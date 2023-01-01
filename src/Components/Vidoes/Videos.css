@@ -1,0 +1,9 @@
+.video_section{
+    display: flex;
+
+}
+
+.card_body_section{
+    display: flex;
+    justify-content: left;
+}

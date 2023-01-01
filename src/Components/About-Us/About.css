@@ -1,0 +1,29 @@
+.Secion_AboutUs{
+    margin-top: 10rem;
+}
+
+
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0a2b1e;
+  }
+  
+  .counter__title {
+    font-size: 1rem;
+    color: black;
+    font-weight: 500;
+  }
+  
+  /* .about__content {
+    padding-left: 50px;
+  } */
+  
+  .about__img{
+    border-radius: 15px;
+    margin-right: 10rem;
+  }
+  
+  .about__content h2 {
+    font-weight: 600;
+  }

@@ -1,0 +1,38 @@
+.single_item{
+    display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.browsing_card{
+    position: relative;
+  background-color: var(--color-grey-primary);
+  margin: 1rem;
+  flex: 1 0 25rem;
+  max-width: 30rem;
+  max-height: 50rem;
+  transition: 0.2s;
+}
+
+.browsing_card:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.browsing_img{
+    margin-top: 2rem;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.browsing_img{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Title_Name{
+    padding: 1rem;
+    font-weight: bolder;
+}

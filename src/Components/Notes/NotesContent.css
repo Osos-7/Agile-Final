@@ -1,0 +1,28 @@
+.notes_img{
+    width: 100%;
+    height: 250px;
+}
+
+.notes_title{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.notes_description{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.notes_card{
+    cursor: pointer;
+    /* margin-right: 4rem; */
+    /* transform: scale(1.02); */
+}
+
+/* .single_item{
+    
+} */
