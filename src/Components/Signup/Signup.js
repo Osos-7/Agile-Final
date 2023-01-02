@@ -1,6 +1,6 @@
 import "./Signup.css";
 import { Button, Form, Alert } from "react-bootstrap";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState, useRef } from "react";
 // import { useAuth } from "../Contexts/AuthContext";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -13,15 +13,14 @@ const Signup = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const passwordConfirmRef = useRef();
-//   const { signup } = useAuth();
+  // const { signup } = useAuth();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
-  const navigate = useNavigate();
 
   function handleSignup(e) {
     // alert("Hello");
     axios
-      .post("https://agile-server.onrender.com/getRegistration", {
+      .post("https://agile-server.onrender.com/registration", {
         firstName: firstNameRef.current.value,
         lastName: lastNameRef.current.value,
         email: emailRef.current.value,
@@ -56,6 +55,7 @@ const Signup = () => {
   return (
     <div className="signup">
       <Form className="signup-form">
+        {/* <h2>عalegny Shokran</h2> */}
         <h3>Sign Up</h3>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -87,18 +87,18 @@ const Signup = () => {
             ref={passwordRef}
             required
           />
-          <Form.Control
+          {/* <Form.Control
             type="password"
             placeholder="Enter password again"
             ref={passwordConfirmRef}
             required
-          />
+          /> */}
           <Button disabled={loading} variant="primary" onClick={handleSignup}>
             Sign Up
           </Button>
         </Form.Group>
         <div className="w-100 text-center mt-2">
-          Already have an account? <Link to="/login">Log In</Link>
+          Already have an account? <Link to="/">Log In</Link>
         </div>
       </Form>
     </div>
