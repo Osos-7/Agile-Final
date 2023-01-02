@@ -1,4 +1,4 @@
-// import "./Signup.css";
+import "./Signup.css";
 import { Button, Form, Alert } from "react-bootstrap";
 import { useNavigate, Link } from "react-router-dom";
 import { useState, useRef } from "react";
@@ -21,7 +21,7 @@ const Signup = () => {
   function handleSignup(e) {
     // alert("Hello");
     axios
-      .post("https://agile-server.onrender.com/registration", {
+      .post("https://agile-server.onrender.com/SendDonation", {
         firstName: firstNameRef.current.value,
         lastName: lastNameRef.current.value,
         email: emailRef.current.value,
@@ -56,7 +56,6 @@ const Signup = () => {
   return (
     <div className="signup">
       <Form className="signup-form">
-        <h2>عalegny Shokran</h2>
         <h3>Sign Up</h3>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form.Group className="mb-3" controlId="formBasicEmail">
