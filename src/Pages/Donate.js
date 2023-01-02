@@ -1,8 +1,11 @@
 import React from 'react'
+import Donation from '../Components/Donation/Donation'
 
 const Donate = () => {
   return (
-    <div>Welcome to the donate page</div>
+    <div>
+      <Donation/>
+    </div>
   )
 }
 

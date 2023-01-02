@@ -11,6 +11,7 @@ import LearningVideosPage from './Pages/LearningVideosPage';
 import ArchiveStudentsPage from './Pages/ArchiveStudentsPage';
 import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
+import VisaCheckout from './Pages/VisaCheckout';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
           <Route path='/donate' element={<Donate/>} />
           <Route path='/archive' element={<ArchivePage/>} />  
           <Route path='/learning_videos' element={<LearningVideosPage/>} />   
-          <Route path='/archivestudent' element={<ArchiveStudentsPage/>} />   
+          <Route path='/archivestudent' element={<ArchiveStudentsPage/>} />
+          <Route path='/visa' element={<VisaCheckout/>} />   
         </Routes>
     </div>
   );

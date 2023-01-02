@@ -1,0 +1,45 @@
+.signup-main {
+    height: 100vh;
+    margin: 5%;
+  }
+  .signup-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    height: 80vh;
+    margin-top: 0px;
+  }
+  
+  .signup-container p {
+    color: grey;
+  }
+  .signup-container input {
+    width: 25%;
+    padding: 1%;
+    height: 8%;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #dcdcdc;
+  }
+  
+  Button {
+    margin-top: 4px;
+    width: 20%;
+  }
+
+.btn-fawry:hover{
+    transform: scale(1.02);
+}
+
+.link_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.link_btn :hover{
+    transform: scale(1.02);
+}
+

@@ -11,7 +11,6 @@ const Home = () => {
       <HeroSection/>
       <AboutUs/>
       <Browsing/>
-      {/* <button onClick={() => app.auth().signOut()}>Sign Out</button> */}
       </div>
     </div>
     
