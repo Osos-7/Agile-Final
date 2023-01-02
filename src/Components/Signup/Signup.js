@@ -1,6 +1,6 @@
 import "./Signup.css";
 import { Button, Form, Alert } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
 // import { useAuth } from "../Contexts/AuthContext";
 import Dropdown from "react-bootstrap/Dropdown";
@@ -13,6 +13,7 @@ const Signup = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const passwordConfirmRef = useRef();
+  const navigate = useNavigate();
   // const { signup } = useAuth();
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -28,10 +29,12 @@ const Signup = () => {
       })
       .then((response) => {
         console.log(response);
+          navigate("/");
       })
       .catch((error) => {
         console.log(error);
       });
+      
     // alert("Signup successful");
 
     // e.preventDefault();
