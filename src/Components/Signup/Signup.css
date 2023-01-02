@@ -21,5 +21,17 @@
     color: white;
 }
 .signup button:hover {
+    border: #ff6600;
     background-color: #ff6600;
+    /* transform: scale(1.02); */
+}
+
+
+.login_link{
+    text-decoration: none;
+    color: black;
+}
+
+.login_link:hover{
+    color: #ff6600;
 }

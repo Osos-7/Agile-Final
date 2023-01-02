@@ -98,7 +98,7 @@ const Signup = () => {
           </Button>
         </Form.Group>
         <div className="w-100 text-center mt-2">
-          Already have an account? <Link to="/">Log In</Link>
+          Already have an account? <Link to="/" className="login_link" >Log In</Link>
         </div>
       </Form>
     </div>

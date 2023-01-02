@@ -92,7 +92,6 @@ const Login = () => {
   return (
     <div className="login">
       <Form className="login-form">
-        <h2>عalegny Shokran</h2>
         <h3>Login</h3>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
@@ -111,7 +110,7 @@ const Login = () => {
             Login
           </Button>
           <div className="w-100 text-center mt-2">
-            Need an account? <Link to="/signup">Sign Up</Link>
+            Need an account? <Link to="/signup" className="link_signup">Sign Up</Link>
           </div>
         </Form.Group>
       </Form>
