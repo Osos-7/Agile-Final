@@ -17,7 +17,7 @@ import NotesDocuments from './Pages/NotesDocuments';
 function App() {
   return (
     <div className="App">
-      <Navbar/> 
+      {/* <Navbar/> */}
         <Routes>
           <Route path='/' element={<Login/>} />
           <Route path='/home' element={<Home/>} />

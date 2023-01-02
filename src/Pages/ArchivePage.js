@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import FileUpload from '../Components/Archive/FileUpload'
 import FileList from '../Components/Archive/FileList'
+import Navbar from '../Components/Header/Navbar'
 // import FileItem from '../Components/Archive/FileItem'
 
 const Archive = () => {
@@ -13,7 +14,9 @@ const Archive = () => {
   }
   return (
     <div className="App">
-      <div className="title"></div>
+      <div className="title">
+      </div>
+      <Navbar/>
       <FileUpload files={files} setFiles={setFiles}
         removeFile={removeFile} />
       <FileList files={files} removeFile={removeFile} />
