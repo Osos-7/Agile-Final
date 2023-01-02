@@ -12,7 +12,7 @@ const PaymentGateway = () => {
     const handleClick = () => {
         alert("Thank you for donation");
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-        navigate("/");
+        navigate("/home");
       };
 
   return (

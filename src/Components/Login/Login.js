@@ -58,7 +58,7 @@ const Login = () => {
       .then((response) => {
         console.log(response);
         if (response.data.status == "Successfully logged in.") {
-          navigate("/");
+          navigate("/home");
         } else {
           setError("Incorrect email or password");
         }

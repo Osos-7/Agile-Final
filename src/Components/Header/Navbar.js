@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <Link to="/" style={{ textDecoration: 'none', color:"black" }}>
+      <Link to="/home" style={{ textDecoration: 'none', color:"black" }}>
         <div className='logo'>
           <h2 className=" d-flex align-items-center gap-1">
             <i className="ri-book-3-line"></i>NAGAحNY.
@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className='item'>
         <ul className='ul'>
           <li className='hover-underline-animation'>
-            <Link to='/' >Home</Link>
+            <Link to='/home' >Home</Link>
           </li>
           <li className='hover-underline-animation'>
             <Link to='/about' >About</Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link to='/donate' >Donate</Link>
           </li>
           <li className='hover-underline-animation'>
-            <Link to='/login' >Login</Link>
+            <Link to='/' >Login</Link>
           </li>
           <li className='hover-underline-animation'>
             <Link to='/archivestudent' >Archive-Student</Link>
