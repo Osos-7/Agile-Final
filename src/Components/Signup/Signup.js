@@ -53,12 +53,12 @@ const Signup = () => {
   }
 
   return (
-    <div className="signup">
+    <div className="signup" style={{color:"white", fontWeight:"bolder"}} >
       <Form className="signup-form">
         {/* <h2>عalegny Shokran</h2> */}
         <h3>Sign Up</h3>
         {error && <Alert variant="danger">{error}</Alert>}
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicEmail" style={{color:"white"}} >
           <Form.Control
             type="text"
             placeholder="Enter first name"

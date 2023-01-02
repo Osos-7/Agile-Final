@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import background from "../../Assets/background.png"
 
 const Login = () => {
   const emailRef = useRef();
@@ -90,10 +91,10 @@ const Login = () => {
   // }
 
   return (
-    <div className="login">
+    <div className="login" style={{color:"white", fontWeight:"bolder"}}>
       <Form className="login-form">
         <h3>Login</h3>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicEmail" style={{color:"white"}}>
           <Form.Control
             type="email"
             placeholder="Enter email"
@@ -109,7 +110,7 @@ const Login = () => {
           <Button disabled={loading} variant="primary" onClick={handleLogin}>
             Login
           </Button>
-          <div className="w-100 text-center mt-2">
+          <div className="w-100 text-center mt-2" style={{color:"white", fontWeight:"bold"}}>
             Need an account? <Link to="/signup" className="link_signup">Sign Up</Link>
           </div>
         </Form.Group>

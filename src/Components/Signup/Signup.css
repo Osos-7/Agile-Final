@@ -4,8 +4,15 @@
     align-items: center;
     text-align: center;
     height: 100vh;
-    background-color: #f5f5f5;
 }
+
+body{
+    background-image: url("https://img.freepik.com/free-photo/back-school-background-with-school-supplies-copy-space_23-2148958977.jpg?w=2000");
+    /* z-index: 10; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .signup form {
     border: 1px solid black;
     border-radius: 20px;
@@ -18,7 +25,7 @@
 }
 .signup button {
     background-color: rgb(70, 152, 161);
-    color: white;
+    color: black;
 }
 .signup button:hover {
     border: #ff6600;
