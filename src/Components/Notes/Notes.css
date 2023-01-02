@@ -1,0 +1,30 @@
+.wrapper{
+    width: 200px;
+    height: 250px;
+}
+
+.notes_img{
+    width: 200px;
+    height: 150px;
+}
+
+.notes_card{
+    cursor: pointer;
+    align-items: center;
+}
+
+.notes_section :hover{
+    transform: scale(1.02);
+}
+
+.notes_title :hover{
+    transform: scale(1.02);
+}
+
+/* .notes_title{
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+} */

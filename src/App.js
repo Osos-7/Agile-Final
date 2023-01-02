@@ -12,6 +12,7 @@ import ArchiveStudentsPage from './Pages/ArchiveStudentsPage';
 import Signup from './Components/Signup/Signup';
 import Login from './Components/Login/Login';
 import VisaCheckout from './Pages/VisaCheckout';
+import NotesDocuments from './Pages/NotesDocuments';
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
           <Route path='/archive' element={<ArchivePage/>} />  
           <Route path='/learning_videos' element={<LearningVideosPage/>} />   
           <Route path='/archivestudent' element={<ArchiveStudentsPage/>} />
-          <Route path='/visa' element={<VisaCheckout/>} />   
+          <Route path='/visa' element={<VisaCheckout/>} />  
+          <Route path='/notes_documents' element={<NotesDocuments/>} />   
         </Routes>
     </div>
   );

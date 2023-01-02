@@ -1,0 +1,16 @@
+.pdf_titles{
+    display: block;
+    text-align: center;
+    padding: 4rem;
+    font-weight: bold;
+    /* line-height: 2em; */
+}
+
+.pdf_files{
+    cursor: pointer;
+    color: #ff6600;
+}
+
+.pdf_header{
+    font-weight: bolder;
+}

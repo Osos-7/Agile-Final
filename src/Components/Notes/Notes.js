@@ -7,21 +7,21 @@ const NotesData = [
     {
       id: "01",
       title: "Physics",
-      description:"First Lesson.",
-      imgUrl:"https://img.freepik.com/free-vector/illustration-data-folder-icon_53876-6329.jpg?w=2000"
+      imgUrl:"https://img.freepik.com/free-vector/illustration-data-folder-icon_53876-6329.jpg?w=2000",
+      path:"/notes_documents"
     },
   
     {
       id: "01",
       title: " Biology",
-      description:"Final Exam Revision.",
+      // description:"Final Exam Revision.",
       imgUrl:"https://img.freepik.com/free-vector/illustration-data-folder-icon_53876-6329.jpg?w=2000"
     },
 
     {
       id: "01",
       title: "Arabic",
-      description:"First Lesson.",
+      // description:"First Lesson.",
       imgUrl:"https://img.freepik.com/free-vector/illustration-data-folder-icon_53876-6329.jpg?w=2000"
     },
   ];
