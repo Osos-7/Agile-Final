@@ -19,9 +19,11 @@ function App() {
     <div className="App">
       {/* <Navbar/> */}
         <Routes>
-          <Route path='/' element={<Login/>} />
+          {/* <Route path='/' element={<Login/>} /> */}
+
+          <Route path='/' element={<Home/>} />
           <Route path='/home' element={<Home/>} />
-          <Route path='/signup' element={<Signup/>} />
+          {/* <Route path='/signup' element={<Signup/>} /> */}
           <Route path='/about' element={<About/>} />
           <Route path='/donate' element={<Donate/>} />
           <Route path='/archive' element={<ArchivePage/>} />  
